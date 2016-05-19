@@ -23,7 +23,10 @@ public class SpringJdbcMariadbMysqlApplication {
 	 */
 	public static void run() {
 		
-		System.out.println("ㅁㅁ");
+		Emp kim = new Emp();
+		kim.setEmpno(new Long(1));
+		kim.setEname("dongsu");
+		System.out.println(kim.toString());
 		
 	}
 }
