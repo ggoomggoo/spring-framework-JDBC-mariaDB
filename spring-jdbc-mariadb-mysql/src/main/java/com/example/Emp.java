@@ -1,11 +1,22 @@
 package com.example;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter @Setter
+@ToString(exclude={"sawon", "hobby"})
+@NoArgsConstructor
+@AllArgsConstructor
 public class Emp {
 	
 	private Long empno;
 	
 	private String ename;
 
+/*	
 	public Emp() {
 //		super();
 	}
@@ -36,5 +47,6 @@ public class Emp {
 	public String toString() {
 		return "Emp [empno=" + empno + ", ename=" + ename + "]";
 	}
-
+*/
+	
 }
