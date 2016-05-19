@@ -1,3 +1,4 @@
-spring boot
-spring jdbc
-mariaDB
+# spring framework jdbc
+* spring boot
+* spring jdbc
+* mariaDB
